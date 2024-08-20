@@ -3482,7 +3482,9 @@ select {
     margin-bottom: 1vh;
   }
   
- 
+  .image-with-description-v1:nth-child(4) img{
+    height:auto;
+  }
   
   .image-with-description p,
   .image-with-description-v1 p {
