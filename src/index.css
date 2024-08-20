@@ -3489,6 +3489,9 @@ select {
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
   }
+  .image-with-description-v1:nth-child(4) img{
+    height: 99.5%;
+  }
   
   .image-with-description p,
   .image-with-description-v1 p {
