@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleChevronRight, faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons'; 
+import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'; 
 
 export default function HomePage() {
 const [currentImageIndex, setCurrentImageIndex ] = useState(0);
@@ -41,15 +41,15 @@ return (
   <div className="featured-art-content">
     <div className="featured-art-container">
     <div className="featured-work-title">
-    <h2 className="rotate-text">Featured Work</h2>
+    <h2 className="rotate-text">Featured Works</h2>
     </div>
     <div className="mini-gallery">
       <div className="mini-gallery-img">
       <img src = {`/images/${images[currentImageIndex]}`} alt= {`Artwork ${currentImageIndex + 1}`} />
       </div>
       <div className="featured-art-icon-row">
-      <FontAwesomeIcon icon={faCircleChevronLeft} onClick={handlePrevImage} className="prev" />
-      <FontAwesomeIcon icon={faCircleChevronRight} onClick={handleNextImage} className="next"/>
+      <FontAwesomeIcon icon={faChevronLeft} onClick={handlePrevImage} className="prev" />
+      <FontAwesomeIcon icon={faChevronRight} onClick={handleNextImage} className="next"/>
       </div>
     </div>
     </div>

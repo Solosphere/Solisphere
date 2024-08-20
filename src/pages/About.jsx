@@ -6,7 +6,7 @@ import { faInstagram, faGithub, faMedium, faLinkedin} from '@fortawesome/free-br
 
 
 const AboutPage = () => {
-const tattooImages = ["tat-1.jpg", "tat-2.jpg", "tat-3.jpg", "tat-4.jpg", "tat-5.jpg"]
+const tattooImages = ["tattoopray.jpg", "tat-2.jpg", "tat-3.jpg", "customsnake.JPG", "tat-5.jpg"]
 const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -31,7 +31,7 @@ const [loading, setLoading] = useState(true);
       <header className="about-header">
         <h1>ABOUT SOLISPHERE</h1>
         <section className="about-caption">
-        <p>Beyond a gallery, it's a curated digital sanctuary merging art and technology, illuminating the path to personal wholeness and growth.</p>
+        <p>A curated digital sanctuary merging art and technology, illuminating the path to wholeness and growth</p>
         </section>
       </header>
 
@@ -62,7 +62,7 @@ const [loading, setLoading] = useState(true);
   </div>
   <div className="skills-list">
     <div className="skill-category">
-      <p>Project Management</p>
+      <p>Product Management</p>
       <p>UI/UX Design</p>
       <p>Agile Development</p>
       <p>Fine Arts</p>
@@ -71,9 +71,12 @@ const [loading, setLoading] = useState(true);
       <p>Full-Stack Development</p>
       <p>Object-Oriented Programming</p>
       <p>Javascript</p>
+      <p>TypeScript</p>
+      <p>Python</p>
       <p>React</p>
       <p>SQL</p>
       <p>Git</p>
+      <p>AWS</p>
       <p>Node.js</p>
       <p>Application Programming Interfaces</p>
       <p>Postgres</p>
@@ -105,8 +108,8 @@ const [loading, setLoading] = useState(true);
         <h2>Beyond the Canvas</h2>
         <p>
         My journey extends beyond static canvases and intricate sculptures, propelled by a passion for creating impactful software like Second Wind and CareerSpring's Interest Finder feature. I believe that software has the power to peer into the depths of problems, and illuminate these challenges by providing tangible solutions to real-world problems that plague society.
-        </p>
-        <p>This commitment stems from a deep-seated belief in the potential of technology to strengthen personal journeys and foster growth within each individual. Software, in its essence, becomes a guiding light, offering solutions that navigate the complexities of existence. It is an unwavering pursuit to peer into the darkness, understanding problems at their core, and crafting solutions that resonate with the human experience. In each line of code and every project undertaken, the goal remains clear - to contribute meaningfully to the betterment of society, providing tools that empower individuals to navigate their paths with courage, resilience, and a renewed sense of purpose. This vision, harmonizing with the overarching themes of SOLISPHERE, envisions a future where technology becomes a transformative force, shedding light on the darkest corners of our collective journey.</p>
+        <br /><br />
+        This commitment stems from a deep-seated belief in the potential of technology to strengthen personal journeys and foster growth within each individual. Software, in its essence, becomes a guiding light, offering solutions that navigate the complexities of existence. It is an unwavering pursuit to peer into the darkness, understanding problems at their core, and crafting solutions that resonate with the human experience. In each line of code and every project undertaken, the goal remains clear - to contribute meaningfully to the betterment of society, providing tools that empower individuals to navigate their paths with courage, resilience, and a renewed sense of purpose. This vision, harmonizing with the overarching themes of SOLISPHERE, envisions a future where technology becomes a transformative force, shedding light on the darkest corners of our collective journey.</p>
         </div>
         <div className='image-with-description-container'>
         <div className="image-with-description-v1">
@@ -119,9 +122,8 @@ const [loading, setLoading] = useState(true);
         
         <Link to="https://interestfinder.careerspring.org/?page_id=2" target="_blank" className="image-with-description-v1">
   <img src="/images/careerspring.jpg" alt="desc" />
-  <p className="image-text-2">As a Developer Contractor, I’ve been instrumental in developing software like CareerSpring’s Career Interest Profiler by leveraging JavaScript, HTML & CSS. This custom career assessment tool seamlessly integrated into WordPress serves as a beacon for individuals exploring their professional paths.</p>
 </Link>
-      
+<p className="image-text-2">As a Developer Contractor, I’ve been instrumental in developing software like CareerSpring’s Career Interest Profiler by leveraging JavaScript, HTML & CSS. This custom career assessment tool seamlessly integrated into WordPress serves as a beacon for individuals exploring their professional paths.</p>
         </div>
         <div className="image-with-description-v1">
         <img src="/images/SAP.JPG" alt="desc"/>
@@ -129,7 +131,9 @@ const [loading, setLoading] = useState(true);
         </p>
         </div>
         <div className="image-with-description-v1">
+        <Link to="https://danielnelson37.github.io/METVoyager/" target="_blank" className="image-with-description-v1">
         <img src="/images/metvoyager.jpg" alt="desc" className="metvid" />
+        </Link>
         <p className="image-text-4">METVoyager is a web platform I developed that leverages the MET API to deliver artwork recommendations based on search functionality or by selecting specific categories to generate art that matches. The platform also allows users to save and revisit favorite artworks in their own personal gallery.</p>
         </div>
         </div>
@@ -141,8 +145,8 @@ const [loading, setLoading] = useState(true);
       <section className="about-row-3">
       <section className="upcoming-projects">
         <div className="upcoming-projects-text-section">
-        <h2>Works in Progress</h2>
-        <p>*Not limited to the showcased</p>
+        <h2>Projects in Progress</h2>
+        <p>*Hover over to learn more about. Not limited to the showcased.</p>
         </div>
         <div className="upcoming-projects-column-2">
         <div className="image-with-description" id="chrome-container" >
@@ -151,20 +155,22 @@ const [loading, setLoading] = useState(true);
             Your browser does not support the video tag.
           </video>
       <div className='chrome-text'>
-      <p>A cyberpunk odyssey unfolds in "Heart in Chrome," a graphic novel currently in the throes of creation exploring the sinister nexus of art, identity, and power.</p>
+      <p>A pyschological cyberpunk thriller unfolds in "Heart in Chrome," a graphic novel currently in the throes of creation exploring the sinister nexus of art, technology, identity, and power.</p>
       </div>
     </div>
     
     <div className="image-with-description" id="tats">
     <div className="tattoo-text">
-    <p>Beyond the realms of traditional art, I'm venturing into the world of tattooing, specializing in traditional black and grey styles. As my journey unfolds, I aspire to master diverse areas, including color realism and more. This new chapter adds another layer to my creative odyssey, exploring different ways to connect art with personal experiences and cultural influences.</p>
+    <p>Beyond the realms of traditional art, I'm venturing into the world of tattooing, specializing in black and grey styles like Realism, American traditional and more. As my journey unfolds, I aim to use tattooing as another layer of my creative odyssey to explore different ways to connect art with personal experiences and cultural influences. On the left is black and grey realism tattoo practice on fake skin and on the right, is a custom traditional snake and skull flash design I drew.
+    <br /><br />
+       *You can find more designs and practice within the Archive section!</p>
     </div>
     <div className="tattoo-mini-gallery">
       <div className='image-column-1'>
       <img src = {`/images/${tattooImages[0]}`} alt= {"tat-0"} />
       </div>
       <div className='image-column-2'>
-      <img src = {`/images/${tattooImages[4]}`} alt= {"tat-4"} />
+      {/* <img src = {`/images/${tattooImages[4]}`} alt= {"tat-4"} /> */}
       <img src = {`/images/${tattooImages[3]}`} alt= {"tat-3"} />
       </div>  
     </div>

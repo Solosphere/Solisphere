@@ -7,7 +7,7 @@ import SortSection from './SortSection';
 import Loading from './Loading';
 import products from '../productsData';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleChevronRight, faCircleChevronLeft, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons'; 
+import { faChevronRight, faChevronLeft, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons'; 
 
 const itemsPerPage = 16;
 const maxButtonsToShow = 4;
@@ -144,7 +144,7 @@ const GalleryList = () => {
     if (startPage > 1) {
       buttons.push(
         <button className="pagination-prev" key="prev" onClick={() => handlePageChange(currentPage - 1)}>
-        <FontAwesomeIcon icon={faCircleChevronLeft}  />
+        <FontAwesomeIcon icon={faChevronLeft}  />
         </button>
       );
     }
@@ -160,7 +160,7 @@ const GalleryList = () => {
     if (endPage < totalPages) {
       buttons.push(
         <button className="pagination-next" key="next" onClick={() => handlePageChange(currentPage + 1)}>
-          <FontAwesomeIcon icon={faCircleChevronRight} />
+          <FontAwesomeIcon icon={faChevronRight} />
         </button>
       );
     }

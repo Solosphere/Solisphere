@@ -48,7 +48,7 @@ const Footer = () => {
 
                 <div className="back-to-top-button" onClick={scrollToTop}>
                     <h3>Back to Top</h3>
-                    <FontAwesomeIcon icon={faArrowUp} size="2x"/>
+                    
                 </div>
             </div>
 

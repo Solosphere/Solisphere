@@ -1,14 +1,16 @@
 body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "changeling-neo", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
   overflow-x: clip !important;/* Prevents horizontal scrollbars due to large gradients */
-  background:
+ /* background: rgb(169, 169, 169);
     linear-gradient(rgba(61, 66, 66, 0.189), transparent),
     linear-gradient(to bottom left, rgb(0, 0, 0), transparent),
     linear-gradient(to top, rgb(169, 169, 169) 85%, transparent);
-   background-blend-mode: screen;
+   background-blend-mode: screen; */
   background-size: 100%;  
-  background-color:rgb(0, 0, 0); 
+  /* background-color:rgb(169, 169, 169);  */
+  background-color: black;
+  color: white;
   max-width: 100%;
 }
 
@@ -20,12 +22,17 @@ input {
   margin-bottom: 1rem;
 }
 
+p{
+  font-family: Avenir, sans-serif !important;
+  color:white;
+}
+
+
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0.5rem;
 }
 
 #logo {
@@ -66,8 +73,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 0 1%;
-  margin-bottom: 1%;
+  padding: 2%;
+  margin: 0%;
 }
 
 nav a {
@@ -106,7 +113,7 @@ nav .right {
 }
 
 button {
-  background-color: black;
+  background-color: #aaaaaa; 
   color: #ffffff;
   padding: 10px 20px;
   border: none;
@@ -137,6 +144,7 @@ video::-webkit-media-controls-play-button {
 
 .home-row {
   display: flex;
+  background-color: black;
   align-items: center;
   justify-content: center;
 }
@@ -154,7 +162,7 @@ video::-webkit-media-controls-play-button {
 
 .landingpage-image {
   width: 100%;
-  height: 750px;
+  height: 1100px;
   z-index: 1;
 }
 
@@ -169,7 +177,7 @@ video::-webkit-media-controls-play-button {
 
 .landingpage-title {
   justify-content: start;
-  font-size: 15vh;
+  font-size: 14vh;
   margin: 0;
 }
 
@@ -177,6 +185,8 @@ video::-webkit-media-controls-play-button {
   font-size: 2.5em;
   text-align: right;
   margin: 0;
+  font-family: "changeling-neo", sans-serif !important;
+  font-weight: lighter;
 }
 
 .featured-art-content {
@@ -186,7 +196,7 @@ video::-webkit-media-controls-play-button {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 2%; 
+  margin-bottom: 5%; 
 }
 
 .featured-art-container{
@@ -302,23 +312,24 @@ video::-webkit-media-controls-play-button {
 /* About Page css*/
 .about-header{
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0;
+  justify-content: none;
 }
 
 .about-header h1{
   font-size: 3em;
   width: 40%;
   color: white;
-  margin-right: 5%;
-  margin-left: -8%;
+  margin-left: 3%;
+  margin-right: 0%;
   background-color: black;
-  padding: 2%;
-  padding-left: 11%;
+  padding: 1%;
+  padding-left: 0%;
   border-radius: 60px;
 }
 
 .about-caption {
-  margin-right: -1%;
+  width: 52%;
   border: 2px solid white;
   border-radius: 60px;
   border-top-right-radius: 0;
@@ -327,11 +338,13 @@ video::-webkit-media-controls-play-button {
 }
 
 .about-header p{
-  font-size:.8em;
+  font-size:1em;
   color: white;
-  margin-right:5%;
-  padding: 2%;
-  padding-left: 5%;
+  margin-left: 4%;
+  padding: 0%;
+  padding-left: 2%;
+  
+
 }
 
 
@@ -419,7 +432,7 @@ video::-webkit-media-controls-play-button {
 .skills-header{
   display: flex;
   flex-direction: column-reverse;
-  text-align: center;
+  text-align: start;
   padding: 2% ;
   writing-mode: vertical-lr; 
   color: white; 
@@ -429,7 +442,7 @@ video::-webkit-media-controls-play-button {
 
 .skills-header h2 {
   font-size: 30px;
-  margin: 0
+  margin: 0;
 }
 
 .skills-header p{
@@ -456,7 +469,7 @@ video::-webkit-media-controls-play-button {
   width: auto 10%;
   font-size: 16px;
   margin: .5%;
-  background-color: black;
+  background-color: #F05941;
   color: white;
   padding: 2%;
   border-radius: 8px;
@@ -550,6 +563,10 @@ video::-webkit-media-controls-play-button {
   transition: transform 0.3s ease-in-out;
 }
 
+.image-with-description-v1:nth-child(4) img{
+  height: 99.5%;
+}
+
 .image-with-description p,
 .image-with-description-v1 p {
   position: absolute;
@@ -597,9 +614,10 @@ video::-webkit-media-controls-play-button {
 
 .upcoming-projects{
   display: flex;
+  flex-direction: column;
   max-width: 100%;
   margin: 2% 1%;
-  align-items: center;
+
 }
 
 .upcoming-projects p {
@@ -607,32 +625,28 @@ video::-webkit-media-controls-play-button {
 }
 
 .upcoming-projects-text-section{
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
   margin: 0 2%;
-  height: 300px;
-  writing-mode: vertical-rl; 
-  transform: rotate(-180deg);
-  background-color: black;
-  border-radius: 30px;
-  padding: 3.5% 0%;
 }
 
 .upcoming-projects-column-2{
   display: flex;
-  align-items:center;
-  max-width: 100%;
+  align-items: center;
+  width: 100%;
   height: 100%;
 }
 
 .upcoming-projects-text-section h2{
   color: white; 
   font-size: 2em;
-   
 }
 
 #chrome-container{
-  max-width: 100% ;
-  height: 100% ;
+  max-width: 50%;
+  height: auto;
 }
 
 .upcoming-projects-text-section p{
@@ -643,9 +657,10 @@ video::-webkit-media-controls-play-button {
 
 .upcoming-projects .image-with-description video{
   width: 100%;
-  height:auto;
-  margin: auto 0;
-  margin-right: 5%;
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-right: 0%;
   border-radius: 40px;
   overflow: hidden;
 }
@@ -664,34 +679,42 @@ video::-webkit-media-controls-play-button {
 .tattoo-text p{
   color: white;
   padding: 10% 2%;
-  width: 75%;
 }
 
 .tattoo-mini-gallery{
   display: flex;
-  width: 100%;
- 
+  max-width: 100% !important;
+  justify-content: flex-end;
 }
 
+
 .image-column-1{
-  display: flex;
-  width: 100%; 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  height: auto;
+  margin-right: 0% !important;
 }
 
 .image-column-2{
-  display: flex;
-  flex-direction: column;
-  width: 88%;
-  margin-right: 5%;
-  
+  width: 60%;
+}
+
+.image-column-2 img{
+  width: 100% !important; 
+  height: auto;
+  max-height: 100%;
 }
 
 #tats{
-  max-width: 100%;
+  max-width: 49%;
+  height: 100%;
+  margin-right: 2%;
 }
 
 .tattoo-text{
-  max-width: 37%;
+  max-width: 50%;
   margin: auto 2%;
   padding-right: 1%;
   
@@ -699,12 +722,11 @@ video::-webkit-media-controls-play-button {
 
 
 .tattoo-mini-gallery img {
-  width: 250px;
-  height: auto;
-  object-fit: contain;
-  border-radius: 10px;
-  margin: 10px;
+  height: 100% !important;
+  margin-right: 2%;
+  object-fit: cover !important;
 }
+
 
 .contact-container{
   display: flex;
@@ -727,7 +749,6 @@ video::-webkit-media-controls-play-button {
   display: flex;
   flex-direction: column;
   margin: auto;
-  padding-right: 10%;
   max-width: 100%;
   text-align: center;
   color: white;
@@ -877,6 +898,7 @@ select {
 } 
 
 .viewer-discretion-button{
+  background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -973,15 +995,18 @@ select {
 
 .pagination-prev, .pagination-next{
   background: none;
-  font-size: 3em;
+  font-size: 2em;
   margin: 0;
   padding: 0;
-  color: black;
+}
+
+.pagination button{
+  background-color: black;
 }
 
 
 .pagination button.active {
-  background-color:#BE3144; 
+  background-color:#aaaaaa; 
   color: white;
   border: none;
   text-decoration: none;
@@ -1541,33 +1566,13 @@ select {
 
   /* About Page css*/
 .about-header{
-  max-width: 100%;
-  margin: 0 auto;
+  justify-content: unset;
+  max-width:100%;
 }
 
 .about-header h1{
-  font-size: 2.5em;
-  width: 60%;
-  color: white;
-  margin-right: 3%;
-  background-color: black;
-  padding: 2%;
-  padding-left: 10%;
-  padding-right: 5%;
-  border-radius: 60px;
-  
-}
+  width: 45%;
 
-.about-caption {
-  border: 2px solid white;
-  border-radius: 60px;
-
-}
-
-.about-header p{
-  font-size:.8em;
-  color: white;
- 
 }
 
 
@@ -1773,8 +1778,6 @@ select {
 
 .about-row-3 {
   border-top: 2px white solid;
-  padding: 0 1%;
-  padding-right: 2%;
 }
 
 
@@ -1782,20 +1785,18 @@ select {
   max-width: 100%;
   margin: auto;
   padding: 2% 0;
-  text-align: center;
 }
 
 .upcoming-projects p {
   font-size: 18px;
   margin: 0;
-  padding-left: 4%;
 }
 
 .upcoming-projects-text-section h2{
   font-size: 2em;
-  margin-left: 0%;
+  /* margin-left: 0%;
   margin-right: 3%;
-  padding: 0;
+  padding: 0; */
 }
 
 .chrome-text{
@@ -1812,7 +1813,7 @@ select {
   font-size: 16px;
 }
 
-.chrome-mini-gallery{
+/* .chrome-mini-gallery{
   display: flex;
   flex-direction: column;
 }
@@ -1834,15 +1835,15 @@ select {
 
 .image-column-1{
   display: flex;
-  width: 55%;
-}
+  
+} */
 
-.image-column-2{
+/* .image-column-2{
   display: flex;
   flex-direction: column;
   width: 50%;
   margin-left:1%;
-}
+} */
 
 .tattoo-text {
   max-width: 100%;
@@ -1853,14 +1854,14 @@ select {
   color: white;
 }
 
-
+/* 
 .tattoo-mini-gallery img {
   max-width: 100%;
   width: 250px;
   height: auto;
   object-fit: contain;
   border-radius: 10px;
-}
+} */
 
 .contact-container{
   max-width: 55%;
@@ -2068,18 +2069,7 @@ select {
 
 /*tablet design*/
 @media only screen and (min-width: 610px) and (max-width: 748px) {
-  body {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    margin: 0;
-    overflow-x: clip;/* Prevents horizontal scrollbars due to large gradients */
-    background:
-      linear-gradient(rgba(61, 66, 66, 0.189), transparent),
-      linear-gradient(to bottom, rgb(0, 0, 0), transparent),
-      linear-gradient(to top , rgb(218, 218, 218) 60%, transparent);
-    background-blend-mode:screen;
-    background-size: 100%;  
-    background-color:rgb(0, 0, 0);
-  }
+ 
 
   nav {
     display: flex;
@@ -2089,6 +2079,15 @@ select {
     margin: 0 1%;
     margin-bottom: 1%;
   }
+
+  .main-menu li{
+    font-size: 2vh;
+  }
+   
+  #logo{
+    font-size: 3vh;
+  } 
+
 
   /* HomePage.css */
   .home-page {
@@ -2114,8 +2113,7 @@ select {
   }
   
   .landingpage-image {
-    max-width: 70vh;
-    height: 70vh;
+    height: 90vh;
     z-index: 1;
   }
   
@@ -2130,12 +2128,12 @@ select {
   
   .landingpage-title {
     justify-content: start;
-    font-size: 8vh;
+    font-size: 10vh;
     margin: 0;
   }
   
   .tagline {
-    font-size: 3vh;
+    font-size: 4vh;
     text-align: right;
     margin: 0;
   }
@@ -2273,19 +2271,19 @@ select {
   }
   
   .about-header h1{
-    font-size: 4vh;
+    font-size: 5vh;
     width: 100%;
     color: white;
-    margin-right: 2%;
+    margin-left: 5%;
     background-color: black;
-    padding: 10%;
+    padding: 0%;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
   }
 
   .about-caption {
     position: relative;
-    width: 80%; /* Adjust the width as needed */
+    width: 70%; /* Adjust the width as needed */
     margin: 0 auto; /* Center the container */
     text-align: center;
     border: none;
@@ -2303,12 +2301,12 @@ select {
   
   .about-caption p {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 48%;
+    left: 45%;
     transform: translate(-50%, -50%);
     color: #fff; /* Adjust the text color */
     font-size: 2vh; /* Adjust the font size */
-    width: 70%; /* Adjust the width as needed */
+    width: 92%; /* Adjust the width as needed */
   }
   
   
@@ -2380,7 +2378,7 @@ select {
   }
   
   .artistic-philosophy h2{
-    font-size: 3.5vh;
+    font-size: 4.5vh;
     margin: 0;
     text-align: left;
   }
@@ -2399,7 +2397,6 @@ select {
   .skills-header{
     display: flex;
     flex-direction: column-reverse;
-    text-align: center;
     padding: 2%;
     writing-mode: vertical-lr; 
     color: white; 
@@ -2408,8 +2405,7 @@ select {
   }
   
   .skills-header h2 {
-    font-size: 3.5vh;
-    text-align: center;
+    font-size: 4.5vh;
     margin: 0
   }
   
@@ -2438,7 +2434,6 @@ select {
     width: auto 10%;
     font-size: 2.4vh;
     margin: .5%;
-    background-color: black;
     color: white;
     text-align: center;
     padding:  2% 3%;
@@ -2472,7 +2467,7 @@ select {
   
   
   .about-row-2 h2 {
-    font-size: 4vh;
+    font-size: 4.5vh;
     margin: 0;
   }
   
@@ -2537,115 +2532,13 @@ select {
   .image-with-description-v1:hover p{
     opacity: 1;
   }
-  
-  .about-row-3 {
-    border-top: 2px white solid;
-    padding: 0;
-  }
-  
-  
-  .upcoming-projects{
-    max-width: 100%;
-    margin: auto;
-    padding: 2% 0;
-    display: flex;
-    flex-direction: row;
-  }
 
-  .upcoming-projects-text-section{
-    padding: 25% 1%;
-    text-align:center;
-  }
-  
-  .upcoming-projects-column-2{
-    display: flex;
-    flex-direction: column;
-    max-width: 80%;
-    height: 100%;
-  }
-
-  .upcoming-projects p {
-    font-size: 1.7vh;
-    text-align: center;
-  }
-  
   .upcoming-projects-text-section h2{
-    font-size: 3.5vh;
-    margin: 0%;
-  }
-
-  #chrome-container{
-    max-width: 95% ;
-    height: 100% ;
+    margin-bottom: 0%;
   }
   
-  .chrome-text{
-    width: 100%;
-  }
-
-  
-  .chrome-text p,
-  .tattoo-text p{
-    font-size: 2vh;
-  }
-  
-  
-  .upcoming-projects .image-with-description video{
-    width: 100%;
-    height:100%;
-    padding: 1%;
-    background-color: black !important;
-    border-radius: 10px !important;
-  }
-
-  .tattoo-container{
-    max-width: 100%;
-    height: 100%;
-  }
-  
-  .tattoo-mini-gallery{
-    display: flex;
-    max-width: 100%;
-    margin: 0;
-  }
-  
-  .image-column-1{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin: auto 0;
-  }
-  
-  .image-column-2{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    margin-left:1%;
-  }
-
-  #tats{
-    display: flex;
-    max-width: 100%;
-  }
-  
-  .tattoo-text {
-    max-width: 100%;
-    padding: 2% 0;
-  }
-  
-  .tattoo-text p{
-    color: white;
-  }
-  
-  
-  .tattoo-mini-gallery img {
-    max-width: 100%;
-    width: 250px;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 10px;
-   
+  .upcoming-projects-text-section p{
+    margin-top: 0%;
   }
   
   .contact-container{
@@ -2660,7 +2553,7 @@ select {
   }
   
   .contact-container h2{
-    font-size: 4vh;
+    font-size: 4.5vh;
   }
   
   .contact-information-container{
@@ -2718,7 +2611,7 @@ select {
   .gallery-title {
     display:flex;
     align-items: center;
-    font-size: 3.5vh;
+    font-size: 4.5vh;
     height: 30px;
     color: white;
     background-color: black;
@@ -2863,33 +2756,9 @@ select {
     display: flex;
     align-content: center;
     justify-content: space-evenly;
-    margin:5% 30%;
+    margin: 5% 30%;
   }
   
-  .pagination-prev, .pagination-next{
-    background: none;
-    font-size: 5vh;
-    margin: 0;
-    padding: 0;
-    color:black;
-  }
-  
-  
-  .pagination button.active {
-    background-color:#BE3144; 
-    color: white;
-    border: none;
-    text-decoration: none;
-  }
-  
-  .pagination button:hover{
-    background-color: rgba(240, 89, 65); 
-  }
-  
-  .pagination-prev:hover, .pagination-next:hover{
-    background: none !important;
-    color: rgba(240, 89, 65) ;
-  }
 
   /* GalleryItemDetail.css*/
   .gallery-details {
