@@ -305,10 +305,8 @@ video::-webkit-media-controls-play-button {
 }
 
 .explore-gallery-button:hover ,.home-about-button:hover{
-  padding: 2% 5%;
   background-color: #aaaaaa;
-  font-size: 18px;
-  margin: 0 5%;
+
 }
 
 .explore-gallery-link,
