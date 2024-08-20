@@ -167,6 +167,7 @@ video::-webkit-media-controls-play-button {
 }
 
 .content {
+  width: 100%;
   position: absolute;
   top: 50%; /* Center vertically */
   left: 50%; /* Center horizontally */
@@ -183,14 +184,14 @@ video::-webkit-media-controls-play-button {
 
 .tagline {
   font-size: 2.5em;
-  text-align: right;
+  text-align: center;
   margin: 0;
   font-family: "changeling-neo", sans-serif !important;
   font-weight: lighter;
 }
 
 .featured-art-content {
-  border-top: 2px white solid;
+  border-top: none !important;
   padding-top:2%;
   display: flex;
   flex-direction: row;
@@ -410,8 +411,8 @@ video::-webkit-media-controls-play-button {
   max-width: 50%;
   padding-right: 2%;
   padding-left: 2%;
-  border-top: 2px white solid;
-  border-bottom: 2px white solid;
+  border-top: none !important;
+  border-bottom: none !important;
 }
 
 .artistic-philosophy h2{
@@ -503,9 +504,10 @@ video::-webkit-media-controls-play-button {
 .about-row-2{
   max-width: 100%;
   margin: auto;
-  margin-bottom: 2%;
+  margin-bottom: 1% !important;
   padding-right: 2%;
   border-radius: 1px;
+  border-bottom: none !important;
 }
 
 .about-row-2 h2 {
@@ -606,9 +608,9 @@ video::-webkit-media-controls-play-button {
   max-width: 600px;
 }
 .about-row-3 {
-  border-top: 2px white solid;
+  border-top: none !important;
   max-width: 100%;
-  border-bottom: 2px white solid;
+  border-bottom: none !important;
   margin-bottom: 2%;
 }
 
@@ -616,8 +618,13 @@ video::-webkit-media-controls-play-button {
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  margin: 2% 1%;
+  margin: 0% 2% !important;
+  padding:0% !important;
 
+}
+
+.upcoming-projects > .rect-container >.rect-2{
+ margin-right: .2%; 
 }
 
 .upcoming-projects p {
@@ -629,7 +636,7 @@ video::-webkit-media-controls-play-button {
   flex-direction: column;
   align-items: start;
   width: 100%;
-  margin: 0 2%;
+  margin: 0%;
 }
 
 .upcoming-projects-column-2{
@@ -730,8 +737,10 @@ video::-webkit-media-controls-play-button {
 
 .contact-container{
   display: flex;
-  max-width: 100%;
-  margin: 0 2.5%;
+  flex-direction: column-reverse;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 1% 0% !important;
   background-color: black;
   border-radius: 10px;
 }
@@ -743,13 +752,14 @@ video::-webkit-media-controls-play-button {
 .contact-container h2{
   font-size: 30px;
   margin: 1%;
+  
 }
 
 .contact-information-container{
   display: flex;
   flex-direction: column;
-  margin: auto;
-  max-width: 100%;
+  margin: 0 3% !important;
+  max-width: 97%;
   text-align: center;
   color: white;
 }
@@ -761,7 +771,7 @@ video::-webkit-media-controls-play-button {
 
 .contact-img{
   max-width: 100%;
-  margin: 0 10%;
+  margin: 0 auto;
 }
 .contact-img video{
   max-width: 100%;
@@ -774,7 +784,7 @@ video::-webkit-media-controls-play-button {
   display: flex;
   max-width: 100%;
   align-items: center;
-  border-bottom: 2px solid white;
+  border-bottom: none;
   padding-right: 0%;
 }
 
@@ -1699,7 +1709,6 @@ select {
   max-width: 100%;
   margin: 5% auto;
   border-radius: 1px;
-  border-top: 2px solid white;
 }
 
 .about-row-2 h2 {
@@ -1712,6 +1721,7 @@ select {
   flex-direction: column;
   max-width: 100%;
   margin: 0 3%;
+  margin-right: 1%;
 }
 
 .beyond-column p{
@@ -1864,7 +1874,6 @@ select {
 } */
 
 .contact-container{
-  max-width: 55%;
   margin: 0 auto;
   display: flex;
   padding: 1% 20%;
@@ -3071,7 +3080,7 @@ select {
   
   .landingpage-image {
     max-width: 100vh;
-    height: 100%;
+    height: 100vh;
     z-index: 1;
   }
   
@@ -3086,7 +3095,7 @@ select {
   
   .landingpage-title {
     justify-content: start;
-    font-size: 6.75vh;
+    font-size: 6.5vh;
     margin: 0;
   }
   
@@ -3266,7 +3275,7 @@ select {
     left: 46%;
     transform: translate(-50%, -50%);
     color: #fff; /* Adjust the text color */
-    font-size: 1.1vh; /* Adjust the font size */
+    font-size: 1.5vh; /* Adjust the font size */
     width: 70%; /* Adjust the width as needed */
   }
   
@@ -3359,7 +3368,7 @@ select {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
-    padding: 2%;
+    padding: 0%;
     writing-mode: vertical-lr; 
     color: white; 
     background-color: black;
@@ -3381,7 +3390,7 @@ select {
     display: flex;
     max-width: 100%;
     align-content: center;
-    margin-right: 1vh;
+    margin-right: 5px;
   }
   
   .skill-category {
@@ -3464,13 +3473,13 @@ select {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   
   .image-with-description-v1 {
     position: relative;
-    width: calc(50% - 10px); 
+    width: 100%; 
     margin: .5vh;
   }
 
@@ -3500,7 +3509,7 @@ select {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     color: white;
-    font-size: 1.4vh;
+    font-size: 2vh;
     text-align: center;
     transition: opacity 0.3s ease-in-out;
     z-index: 1;
@@ -3519,28 +3528,46 @@ select {
   .image-with-description-v1:hover p{
     opacity: 1;
   }
+
+  .upcoming-projects-text-section{
+    margin: 0 1%;
+  }
   
   .upcoming-projects-column-2{
+    display: flex;
+    flex-direction: column-reverse;
     margin-bottom: 3%;
   }
+
   .upcoming-projects-text-section h2{
     font-size: 3.5vh;
     margin-bottom: 0
   }
+
   .upcoming-projects-text-section p{
     font-size: 1.5vh;
     margin-top: 0;
   }
 
+  #tats{
+    max-width: 94%;
+  }
+
+  #chrome-container{
+    margin-top: 2%;
+    max-width: 95%;
+  }
   .tattoo-text p{
     width: 100%;
   }
+
+
   .contact-container{
-    max-width: 55%;
+    max-width: 90%;
     margin: 0 auto;
     margin-bottom: 5%;
     display: flex;
-    padding: 1% 20%;
+    padding: 1% 0%;
     padding-top: 2%;
     flex-direction: column-reverse;
     background-color: black;

@@ -34,7 +34,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-row">
                 <div className="logo-information">
-                    <h2><NavLink to='/'>SOLISPHERE</NavLink></h2>
+                    <h2><NavLink to='/'>SOLUS CORE</NavLink></h2>
                 </div>
 
                 <div className="navigation-links">
@@ -71,7 +71,7 @@ const Footer = () => {
 
             <div className="footer-row">
                 <div className="copyright-information">
-                    <p>&copy; {currentYear} SOLISPHERE</p>
+                    <p>&copy; {currentYear} SOLUS CORE</p>
                 </div>
             </div>
 

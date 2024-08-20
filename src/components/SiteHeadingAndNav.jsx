@@ -7,7 +7,7 @@ export default function SiteHeadingAndNav() {
   return (
     <header>
       <nav>
-        <NavLink to='/' id="logo">SOLISPHERE </NavLink> 
+        <NavLink to='/' id="logo">SOLUS CORE </NavLink> 
         <div className="right">
         <button className="dropdown-btn"><FontAwesomeIcon icon={faBars} size="lg" /></button>
           <ul className="main-menu">

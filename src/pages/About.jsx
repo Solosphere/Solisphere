@@ -29,7 +29,7 @@ const [loading, setLoading] = useState(true);
     <div className="about-container">
       
       <header className="about-header">
-        <h1>ABOUT SOLISPHERE</h1>
+        <h1>ABOUT</h1>
         <section className="about-caption">
         <p>A curated digital sanctuary merging art and technology, illuminating the path to wholeness and growth</p>
         </section>
@@ -39,7 +39,7 @@ const [loading, setLoading] = useState(true);
         <section className="introduction">
         <h2>THE CREATIVE</h2>
         <img src="/images/portrait.JPG" alt="desc"/>
-        <p>Hey, I'm Daniel Nelson, the creator behind SOLISPHERE. My journey began at Parsons School of Art & Design, where I honed skills in art, graphic design, and creative technology. Seeking further growth, I became experienced in full-stack software engineering at The Marcy Lab School's Software Engineering Fellowship. SOLISPHERE, born from this diverse background, is a platform I've crafted to showcase my multifaceted portfolio, delving into the intricacies of the human condition. As an artist, graphic designer, and software engineer, I leverage my varied expertise to offer insights and create pathways for navigating the complexities of morality, existence, and the pursuit of personal wholeness.
+        <p>Hey, I'm Daniel Nelson, the creator behind SOLUS CORE. My journey began at Parsons School of Art & Design, where I honed skills in art, graphic design, and creative technology. Seeking further growth, I became experienced in full-stack software engineering at The Marcy Lab School's Software Engineering Fellowship. SOLUS CORE, born from this diverse background, is a platform I've crafted to showcase my multifaceted portfolio, delving into the intricacies of the human condition. As an artist, graphic designer, and software engineer, I leverage my varied expertise to offer insights and create pathways for navigating the complexities of morality, existence, and the pursuit of personal wholeness.
         </p>
         </section>
         <section className="philosophy-inspiration-container">
@@ -50,9 +50,9 @@ const [loading, setLoading] = useState(true);
         <section className="artistic-philosophy">
         <h2>THE PHILOSOPHY</h2>
         <p>
-        Within SOLISPHERE, I aim to shed light on the transformative journey towards personal wholeness, capturing the beauty of introspection and embracing the profound depth of the human experience. Drawing inspiration from philosophical luminaries such as Fyodor Dostoevsky, Friedrich Nietzsche, Albert Camus, Arthur Schopenhauer, and Miyamoto Musashi, each creation unravels the complexities of the human experience. This journey through the absurd, celebrating individualism and embracing transformative narratives, transcends philosophical concepts, resonating with personal experiences and cultural influences.
+        Within SOLUS CORE, I aim to shed light on the transformative journey towards personal wholeness, capturing the beauty of introspection and embracing the profound depth of the human experience. Drawing inspiration from philosophical luminaries such as Fyodor Dostoevsky, Friedrich Nietzsche, Albert Camus, Arthur Schopenhauer, and Miyamoto Musashi, each creation unravels the complexities of the human experience. This journey through the absurd, celebrating individualism and embracing transformative narratives, transcends philosophical concepts, resonating with personal experiences and cultural influences.
         </p>
-        <p>Spanning immersive websites to evocative multimedia paintings and drawings, my creations merge fine arts, graphic design, and technology. Projects like SAP (FORTHESOUL), 2022, exemplify my commitment to pushing creative boundaries. SOLISPHERE aims to connect with you on a profound level, sparking introspection and inviting you to delve into the depth into its meaning. Each piece serves as a portal into existential themes—absurdism, nihilism, and existentialism—inviting you to contemplate the depth of the human experience and infuse its meaning with your unique interpretation and engagement.    </p> 
+        <p>Spanning immersive websites to evocative multimedia paintings and drawings, my creations merge fine arts, graphic design, and technology. Projects like SAP (FORTHESOUL), 2022, exemplify my commitment to pushing creative boundaries. SOLUS CORE aims to connect with you on a profound level, sparking introspection and inviting you to delve into the depth into its meaning. Each piece serves as a portal into existential themes—absurdism, nihilism, and existentialism—inviting you to contemplate the depth of the human experience and infuse its meaning with your unique interpretation and engagement.    </p> 
         
         
         <section className="skills-container">
@@ -109,7 +109,7 @@ const [loading, setLoading] = useState(true);
         <p>
         My journey extends beyond static canvases and intricate sculptures, propelled by a passion for creating impactful software like Second Wind and CareerSpring's Interest Finder feature. I believe that software has the power to peer into the depths of problems, and illuminate these challenges by providing tangible solutions to real-world problems that plague society.
         <br /><br />
-        This commitment stems from a deep-seated belief in the potential of technology to strengthen personal journeys and foster growth within each individual. Software, in its essence, becomes a guiding light, offering solutions that navigate the complexities of existence. It is an unwavering pursuit to peer into the darkness, understanding problems at their core, and crafting solutions that resonate with the human experience. In each line of code and every project undertaken, the goal remains clear - to contribute meaningfully to the betterment of society, providing tools that empower individuals to navigate their paths with courage, resilience, and a renewed sense of purpose. This vision, harmonizing with the overarching themes of SOLISPHERE, envisions a future where technology becomes a transformative force, shedding light on the darkest corners of our collective journey.</p>
+        This commitment stems from a deep-seated belief in the potential of technology to strengthen personal journeys and foster growth within each individual. Software, in its essence, becomes a guiding light, offering solutions that navigate the complexities of existence. It is an unwavering pursuit to peer into the darkness, understanding problems at their core, and crafting solutions that resonate with the human experience. In each line of code and every project undertaken, the goal remains clear - to contribute meaningfully to the betterment of society, providing tools that empower individuals to navigate their paths with courage, resilience, and a renewed sense of purpose. This vision, harmonizing with the overarching themes of SOLUS CORE, envisions a future where technology becomes a transformative force, shedding light on the darkest corners of our collective journey.</p>
         </div>
         <div className='image-with-description-container'>
         <div className="image-with-description-v1">
@@ -144,7 +144,12 @@ const [loading, setLoading] = useState(true);
     
       <section className="about-row-3">
       <section className="upcoming-projects">
+      <section className="rect-container">
+            <section className="rect-1"></section>
+            <section className="rect-2"></section>
+            </section>
         <div className="upcoming-projects-text-section">
+          
         <h2>Projects in Progress</h2>
         <p>*Hover over to learn more about. Not limited to the showcased.</p>
         </div>
