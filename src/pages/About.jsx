@@ -161,7 +161,7 @@ const [loading, setLoading] = useState(true);
     
     <div className="image-with-description" id="tats">
     <div className="tattoo-text">
-    <p>Beyond the realms of traditional art, I'm venturing into the world of tattooing, specializing in black and grey styles like Realism, American traditional and more. As my journey unfolds, I aim to use tattooing as another layer of my creative odyssey to explore different ways to connect art with personal experiences and cultural influences. On the left is black and grey realism tattoo practice on fake skin and on the right, is a custom traditional snake and skull flash design I drew.
+    <p>Beyond the realms of traditional art, I'm venturing into the world of tattooing, specializing in black and grey styles like Realism, American traditional and more. As my journey unfolds, I aim to use tattooing as another layer of my creative odyssey to explore different ways to connect art with personal experiences and cultural influences.
     <br /><br />
        *You can find more designs and practice within the Archive section!</p>
     </div>
