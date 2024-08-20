@@ -23,7 +23,7 @@ input {
 }
 
 p{
-  font-family: Avenir, sans-serif !important;
+  font-family: Helevtica, Avenir, sans-serif !important;
   color:white;
 }
 
@@ -184,7 +184,7 @@ video::-webkit-media-controls-play-button {
 
 .tagline {
   font-size: 2.5em;
-  text-align: center;
+  text-align: center !important;
   margin: 0;
   font-family: "changeling-neo", sans-serif !important;
   font-weight: lighter;
@@ -299,6 +299,14 @@ video::-webkit-media-controls-play-button {
 
 .explore-gallery-button,.home-about-button{
   padding: 2% 5%;
+  background-color: #F05941;
+  font-size: 18px;
+  margin: 0 5%;
+}
+
+.explore-gallery-button:hover ,.home-about-button:hover{
+  padding: 2% 5%;
+  background-color: #aaaaaa;
   font-size: 18px;
   margin: 0 5%;
 }
@@ -784,7 +792,7 @@ video::-webkit-media-controls-play-button {
   display: flex;
   max-width: 100%;
   align-items: center;
-  border-bottom: none;
+  border-bottom: none !important;
   padding-right: 0%;
 }
 
@@ -1016,19 +1024,19 @@ select {
 
 
 .pagination button.active {
-  background-color:#aaaaaa; 
+  background-color:#F05941; 
   color: white;
   border: none;
   text-decoration: none;
 }
 
 .pagination button:hover{
-  background-color: rgba(240, 89, 65); 
+  background-color: #aaaaaa; 
 }
 
 .pagination-prev:hover, .pagination-next:hover{
   background: none !important;
-  color: rgba(240, 89, 65) ;
+  color: #aaaaaa ;
 }
 
 
@@ -3440,7 +3448,7 @@ select {
   .about-row-2{
     max-width: 100%;
     margin: auto;
-    margin-bottom: 2%;
+    margin-bottom: 5% !important;
     margin-right: 2%;
     border-radius: 1px;
     padding-right: 0%;
@@ -3448,14 +3456,16 @@ select {
   
   .about-row-2 h2 {
     font-size: 3.5vh;
-    margin: 0;
+    margin: 0% ;
+    
   }
   
   .beyond-column {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    margin: 0 3%;
+    margin: 0% 3%;
+    margin-top: 5%;
   }
   
   .beyond-column p{
@@ -3541,12 +3551,13 @@ select {
 
   .upcoming-projects-text-section h2{
     font-size: 3.5vh;
-    margin-bottom: 0
+    margin: 0;
   }
 
   .upcoming-projects-text-section p{
     font-size: 1.5vh;
     margin-top: 0;
+    margin-bottom: 5%;
   }
 
   #tats{
@@ -3555,7 +3566,8 @@ select {
 
   #chrome-container{
     margin-top: 2%;
-    max-width: 95%;
+    margin-left: 5%;
+    max-width: 100%;
   }
   .tattoo-text p{
     width: 100%;
@@ -3586,6 +3598,11 @@ select {
     text-align: center;
     color: white;
     padding-right: 0%;
+  }
+
+  .contact-information-container > .rect-container {
+    width: 97%;
+    margin-left: 0%;
   }
   
   .contact-information-container h2{
