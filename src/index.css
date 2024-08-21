@@ -3807,6 +3807,7 @@ select {
       align-content: center;
       justify-content: space-evenly;
       margin:5% 15%;
+      margin-top: 10%;
     }
   
   .pagination-prev, .pagination-next{
@@ -3972,7 +3973,7 @@ select {
     flex-direction: column;
     max-width: 100%;
     align-content: center;
-    margin-top: 10%;
+    margin-top: 0%;
     background-color: black; 
     color: white; 
   }
