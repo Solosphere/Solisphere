@@ -3420,9 +3420,8 @@ select {
   .introduction p {
     position: absolute;
     width: 60%;
-    font-size: 2vh;
+    font-size: 1.7vh;
     left: 49%;
-    transform: translate(-50%, -50%); 
     opacity: 0;
     padding: 5% 5%;
     /* background: rgba(255, 255, 255, 0.019);
