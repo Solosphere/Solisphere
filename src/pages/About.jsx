@@ -38,7 +38,7 @@ const [loading, setLoading] = useState(true);
       <section className="about-row-1">
         <section className="introduction">
         <h2>THE CREATIVE</h2>
-        <img src="/images/portrait.JPG" alt="desc"/>
+        <img src="/images/cropheadshot.jpg" alt="selfportrait"/>
         <p>Hey, I'm Daniel Nelson, the creator behind SOLUS CORE. My journey began at Parsons School of Art & Design, where I honed skills in art, graphic design, and creative technology. Seeking further growth, I became experienced in full-stack software engineering at The Marcy Lab School's Software Engineering Fellowship. SOLUS CORE, born from this diverse background, is a platform I've crafted to showcase my multifaceted portfolio, delving into the intricacies of the human condition. As an artist, graphic designer, and software engineer, I leverage my varied expertise to offer insights and create pathways for navigating the complexities of morality, existence, and the pursuit of personal wholeness.
         </p>
         </section>
@@ -123,7 +123,10 @@ const [loading, setLoading] = useState(true);
         <Link to="https://interestfinder.careerspring.org/?page_id=2" target="_blank" className="image-with-description-v1">
   <img src="/images/careerspring.jpg" alt="desc" />
 </Link>
-<p className="image-text-2">As a Developer Contractor, I’ve been instrumental in developing software like CareerSpring’s Career Interest Profiler by leveraging JavaScript, HTML & CSS. This custom career assessment tool seamlessly integrated into WordPress serves as a beacon for individuals exploring their professional paths.</p>
+<p className="image-text-2">As a Developer Contractor, I’ve been instrumental in developing software like CareerSpring’s Career Interest Profiler by leveraging JavaScript, HTML & CSS. This custom career assessment tool seamlessly integrated into WordPress serves as a beacon for individuals exploring their professional paths.
+  <br></br>
+  <br></br>
+   *Click on to try out the tool for yourself.</p>
         </div>
         <div className="image-with-description-v1">
         <img src="/images/SAP.JPG" alt="desc"/>
@@ -134,7 +137,10 @@ const [loading, setLoading] = useState(true);
         <Link to="https://danielnelson37.github.io/METVoyager/" target="_blank" className="image-with-description-v1">
         <img src="/images/metvoyager.jpg" alt="desc" className="metvid" />
         </Link>
-        <p className="image-text-4">METVoyager is a web platform I developed that leverages the MET API to deliver artwork recommendations based on search functionality or by selecting specific categories to generate art that matches. The platform also allows users to save and revisit favorite artworks in their own personal gallery.</p>
+        <p className="image-text-4">METVoyager is a web platform I developed that leverages the MET API to deliver artwork recommendations based on search functionality or by selecting specific categories to generate art that matches. The platform also allows users to save and revisit favorite artworks in their own personal gallery. 
+        <br></br>
+        <br></br>
+          *Click on to try out the tool for yourself.</p>
         </div>
         </div>
        
