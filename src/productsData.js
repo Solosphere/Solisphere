@@ -920,7 +920,7 @@ const products = [
 
       {
         id: 78,
-        name: 'An ambigious trip, enjoy',
+        name: 'Bottom of Bottles',
         date: 2020,
         collection: '',
         price: 250000,
@@ -1105,7 +1105,7 @@ const products = [
         date: 2024,
         collection: '',
         price: 250000,
-        image: ['/images/tat-6.jpg', '/images/tat-4.jpg', '/images/tat-7.jpg', '/images/tat-5.jpg'],
+        image: ['/images/tattoopray.jpg','/images/womanrose.jpg','/images/lamb.JPG','/images/tattoolettering.JPG','/images/tattoolettering2.JPG','/images/heartcuff.jpg', '/images/minimalabs.jpg', '/images/lighterflower.jpg','/images/crosses.jpg','/images/tat-6.jpg', '/images/tat-4.jpg', '/images/tat-7.jpg', '/images/tat-5.jpg'],
         media: 'Tattoo on fake skin',
         dimensions: '',
         description: '',
@@ -1117,7 +1117,7 @@ const products = [
         date: 2024,
         collection: '',
         price: 250000,
-        image: ['/images/tat-1.jpg','/images/tat-2.jpg', '/images/tat-3.jpg'],
+        image: ['/images/customsnake.JPG','/images/customflash1.JPG','/images/dogdesign.JPG','/images/orchidspiders.JPG','/images/batdesign.JPG','/images/dragonheaddesign.JPG','/images/drawncrow.jpg','/images/tat-1.jpg','/images/tat-2.jpg', '/images/tat-3.jpg'],
         media: 'Graphite and marker on paper',
         dimensions: '',
         description: '',
