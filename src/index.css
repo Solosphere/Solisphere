@@ -3382,8 +3382,6 @@ select {
   
   }
   
-  
-  
   .about-row-1{
     display: flex;
     flex-direction: column;
@@ -3402,7 +3400,7 @@ select {
     font-size: 3.5vh;
     max-width: 100%;
     position: absolute;
-    top: 10%;
+    top: 7%;
     left: 90%;
     writing-mode: vertical-lr; /* Rotate text vertically from left to right */
     transform: rotate(0deg); /* Additional rotation for browser compatibility */
@@ -3420,7 +3418,7 @@ select {
   .introduction p {
     position: absolute;
     width: 60%;
-    font-size: 1.7vh;
+    font-size: 1.8vh;
     left: 49%;
     opacity: 0;
     padding: 5% 5%;
