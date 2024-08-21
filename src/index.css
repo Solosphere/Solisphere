@@ -299,13 +299,15 @@ video::-webkit-media-controls-play-button {
 
 .explore-gallery-button,.home-about-button{
   padding: 2% 5%;
-  background-color: #F05941;
+  background-color: black;
+  border: 2px rgb(39, 39, 39) solid;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow to create raised effect */
   font-size: 18px;
   margin: 0 5%;
 }
 
 .explore-gallery-button:hover ,.home-about-button:hover{
-  background-color: #aaaaaa;
+  background-color: #F05941;
 
 }
 
@@ -1199,17 +1201,19 @@ select {
   display: flex;
   width: 100%;
   align-items: center;
+  
 }
 
 .footer-row:first-child {
   margin: auto;
+  margin-top: 5% !important;
   width: 100%;
-  margin-bottom: 2%;
+  margin-bottom: 0%;
+  border-top: 2px solid white; 
 }
 
 .footer-row:nth-child(2) {
   padding-top: 1%; 
-  border-top: 2px solid white; 
 
 }
 
@@ -3082,12 +3086,17 @@ select {
   
   .video-container {
     position: none;
+    margin-right: 4%;
   }
   
   .landingpage-image {
-    max-width: 100vh;
+   
+    max-width: 100%;
+    margin: 0;
     height: 100vh;
     z-index: 1;
+    transform: scale(1.2); /* Adjust scale value to zoom in */
+    
   }
   
   .content {
@@ -3245,14 +3254,14 @@ select {
   }
   
   .about-header h1{
-    font-size: 3.5vh;
+    font-size: 5vh;
     width: 70%;
     color: white;
     margin-right: 2%;
     margin-left: 0%;
     background-color: black;
     padding: 10%;
-    padding-left: 5%;
+    padding-left: 7%;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
   }
@@ -3647,7 +3656,7 @@ select {
   .gallery-title {
     display:flex;
     align-items: center;
-    font-size: 3.5vh;
+    font-size: 4vh;
     height: 30px;
     color: white;
     background-color: black;
@@ -3945,6 +3954,7 @@ select {
   .thumbnail:hover {
     border-color: #F05941; 
   }
+  
   /* Loading Css*/
   .loading{
     display: flex;
@@ -3961,7 +3971,7 @@ select {
     flex-direction: column;
     max-width: 100%;
     align-content: center;
-    margin-top: 3%;
+    margin-top: 10%;
     background-color: black; 
     color: white; 
   }
@@ -3977,11 +3987,12 @@ select {
     width: 100%;
     padding: 0; 
     padding-right: 0%;
+    border-top: 2px white solid;
   }
   
   .footer-row:nth-child(2) {
-    padding-top: 1%; 
-    border-top: 2px solid white; 
+    padding-top: 0%; 
+    border-top: none; 
   
   }
   
@@ -4016,8 +4027,9 @@ select {
   .back-to-top-button {
     display: flex;
     flex-direction:column;
+    text-align: center;
     font-size: 1vh;
-    width: 25%;
+    width: 30%;
     transition: transform 0.3s ease-in-out;
   }
   
