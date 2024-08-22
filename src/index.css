@@ -18,6 +18,7 @@ input, label {
   display: block;
 }
 
+
 h1 {
   font-size: 3em !important;
   
@@ -46,8 +47,6 @@ p{
 input {
   margin-bottom: 1rem;
 }
-
-
 
 
 header {
@@ -87,6 +86,13 @@ form {
   color: #F05941;
   font-weight: bold;
   font-style: italic;
+}
+
+.nav-header{
+position: sticky !important;
+top: 0;
+z-index: 1000 !important;
+background-color: #000000;
 }
 
 nav {

@@ -5,7 +5,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 export default function SiteHeadingAndNav() {
 
   return (
-    <header>
+    <header class="nav-header">
       <nav>
         <NavLink to='/' id="logo">SOLUS CORE </NavLink> 
         <div className="right">
