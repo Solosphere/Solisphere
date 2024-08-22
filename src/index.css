@@ -195,7 +195,6 @@ video::-webkit-media-controls-play-button {
 
 .landingpage-title {
   justify-content: start;
-  font-size: 14vh;
   margin: 0;
 }
 
@@ -1319,6 +1318,13 @@ select {
 
  @media only screen and (min-width: 1486px) and (max-width: 1700px){
 
+  .landingpage-title{
+    font-size: 7em !important;
+  }
+
+  .tagline {
+    font-size: 3em !important;
+  }
   .about-header{
     justify-content: unset;
     max-width:100%;
@@ -1570,8 +1576,13 @@ select {
     text-align: center;
     flex-direction: column;
   }
+  .landingpage-title{
+    font-size: 5em !important;
+  }
 
-  
+  .tagline {
+    font-size: 2em !important;
+  }
   .featured-art-content {
     border-top: 2px white solid;
     display: flex;
@@ -1977,38 +1988,6 @@ select {
   font-size: 16px;
 }
 
-/* .chrome-mini-gallery{
-  display: flex;
-  flex-direction: column;
-}
-
-.chrome-mini-gallery video{
-  width: 800px;
-  border-radius: 10px;
-}
-
-.tattoo-container{
-  width: 100%;
-  }
-
-.tattoo-mini-gallery{
-  display: flex;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.image-column-1{
-  display: flex;
-  
-} */
-
-/* .image-column-2{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin-left:1%;
-} */
-
 .tattoo-text {
   max-width: 100%;
   padding: 2% 0;
@@ -2018,14 +1997,6 @@ select {
   color: white;
 }
 
-/* 
-.tattoo-mini-gallery img {
-  max-width: 100%;
-  width: 250px;
-  height: auto;
-  object-fit: contain;
-  border-radius: 10px;
-} */
 
 .contact-container{
   margin: 0 auto;
