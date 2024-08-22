@@ -3040,6 +3040,9 @@ select {
     display: block;
   }
   
+  h4{
+    font-size: 1.5em !important;
+  }
   input {
     margin-bottom: 1rem;
   }
@@ -3366,12 +3369,13 @@ select {
     color: white;
     margin-right: 2%;
     margin-left: 0%;
+    margin-top:1%;
     background-color: black;
     padding: 0%;
     padding-left: 7%;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
-    margin-bottom: 0%;
+    margin-bottom: 2%;
     z-index: 1;
   }
 
@@ -4180,6 +4184,9 @@ select {
   
   input {
     margin-bottom: 1rem;
+  }
+  h4{
+    font-size: 1.6em !important;
   }
   
   header {
