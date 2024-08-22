@@ -60,7 +60,7 @@ const GalleryItemDetails = () => {
       <div className="details-container">
         <div className="details-section">
           <div className="details-title">
-            <h1>{product.name}</h1>
+            <h3>{product.name}</h3>
             <p className="gallery-item-date">{product.date}</p>
             <p>Media: {product.media}</p>
             {product.dimensions && (

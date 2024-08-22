@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
 
                 <div className="back-to-top-button" onClick={scrollToTop}>
-                    <h3>Back to Top</h3>
+                    <h4>Back to Top</h4>
                     
                 </div>
             </div>
