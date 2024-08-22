@@ -67,7 +67,7 @@ const GalleryCard = ({ product, currentPage, showViolentContent }) => {
       setCurrentImageIndex((prevIndex) =>
         prevIndex === product.image.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5); // Change the duration here for the image transition
+    }, 1); // Change the duration here for the image transition
     return () => clearInterval(interval);
   }, [product.image.length]);
 
