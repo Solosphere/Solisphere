@@ -1616,6 +1616,7 @@ select {
     max-width: 100%;
     justify-content: center;
     position: relative;
+    margin-bottom: 0%;
   }
 
   .featured-art-container{
