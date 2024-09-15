@@ -1101,11 +1101,11 @@ const products = [
 
       {
         id: 93,
-        name: 'Tattoos on fake skin',
+        name: 'Tattoos on Fake Skin Part I',
         date: 2024,
         collection: '',
         price: 250000,
-        image: ['/images/tattoopray.jpg','/images/womanrose.jpg','/images/lamb.JPG','/images/tattoolettering.JPG','/images/tattoolettering2.JPG','/images/heartcuff.jpg', '/images/minimalabs.jpg', '/images/lighterflower.jpg','/images/crosses.jpg','/images/tat-6.jpg', '/images/tat-4.jpg', '/images/tat-7.jpg', '/images/tat-5.jpg'],
+        image: ['/images/tattoopray.jpg','/images/womanrose.jpg','/images/lamb.JPG','/images/tattoolettering.JPG','/images/tattoolettering2.JPG','/images/heartcuff.jpg', '/images/minimalabs.jpg', '/images/lighterflower.jpg'],
         media: 'Tattoo on fake skin',
         dimensions: '',
         description: '',
@@ -1113,18 +1113,56 @@ const products = [
 
       {
         id: 94,
-        name: 'Flash Designs for Tattoos',
+        name: 'Tattoos on Fake Skin Part II',
         date: 2024,
         collection: '',
-        price: 250000,
-        image: ['/images/customsnake.JPG','/images/customflash1.JPG','/images/dogdesign.JPG','/images/orchidspiders.JPG','/images/batdesign.JPG','/images/dragonheaddesign.JPG','/images/drawncrow.jpg','/images/tat-1.jpg','/images/tat-2.jpg', '/images/tat-3.jpg'],
-        media: 'Graphite and marker on paper',
+        price: 200000000,
+        image:['/images/crosses.jpg','/images/tat-6.jpg', '/images/tat-4.jpg', '/images/tat-7.jpg', '/images/tat-5.jpg'],
+        media: 'Tattoo on fake skin',
         dimensions: '',
         description: '',
       },
 
       {
         id: 95,
+        name: 'Custom Designs for Tattoos Part I',
+        date: 2024,
+        collection: '',
+        price: 250000,
+        image: ['/images/customsnake.JPG','/images/onitat.jpg','/images/dogdesign.JPG','/images/batdesign.JPG'],
+        media: 'Graphite and marker on paper',
+        dimensions: '',
+        description: '',
+      },
+
+      {
+        id: 96,
+        name: 'Custom Designs for Tattoos Part II',
+        date: 2024,
+        collection: '',
+        price: 20000000,
+        image: ['/images/tigerskull.JPG', '/images/horsedesign.jpg', '/images/orchidspiders.JPG', '/images/dragonheaddesign.JPG'],
+        media: 'Graphite and ink on paper',
+        dimenstions: '',
+        description: ''
+      },
+
+      {
+        id: 97,
+        name: 'Custom Designs for Tattoos Part III',
+        date: 2024,
+        collection: '',
+        price: 20000000,
+        image: ['/images/customflash1.JPG','/images/drawncrow.jpg','/images/tat-1.jpg','/images/tat-2.jpg', '/images/tat-3.jpg'],
+        media: 'Graphite and ink on paper',
+        dimenstions: '',
+        description: ''
+      },
+
+  
+
+      {
+        id: 98,
         name: 'Theoria mutantium',
         date: 2024,
         collection: '',
@@ -1136,7 +1174,7 @@ const products = [
       },
 
       {
-        id: 96,
+        id: 99,
         name: 'Nauseous heart',
         date: 2018,
         collection: '',
@@ -1148,7 +1186,7 @@ const products = [
       },
 
       {
-        id: 97,
+        id: 100,
         name: 'Instant gratification',
         date: 2018,
         collection: '',
@@ -1161,7 +1199,7 @@ const products = [
       },
 
       {
-        id: 98,
+        id: 101,
         name: 'Motion Heat Cutter/ Gluttony',
         date: 2021,
         collection: '',
@@ -1171,8 +1209,20 @@ const products = [
         dimensions: '',
         description: '"Motion Heat Cutter" is a 3D model sculpture integrating motion detection to activate a nichrome wire that burns at 400 degrees fahrenheit through a tilt ball switch. This interactive tool, allowing users to rotate it 90 degrees, was crafted with the purpose of sculpting a foam representation critiquing the gluttony of the TransAtlantic Slave trade and the exploitation of black labor in sugar production. By juxtaposing foam with sugar as materials, the piece unveils the hidden exploitative nature underlying the commodification of sugar, urging contemplation on the complexities of industrialization and exploitation within our societal structures.',
       },
-
-      
   ];
+
+//Calculating most products in a card
+//   let maxImagesProduct = products[0];
+// let maxImagesCount = products[0].image.length;
+
+// for (let i = 1; i < products.length; i++) {
+//     if (products[i].image.length > maxImagesCount) {
+//         maxImagesProduct = products[i];
+//         maxImagesCount = products[i].image.length;
+//     }
+// }
+
+// console.log('Product with the most images:', maxImagesProduct);
+
   
   export default products;

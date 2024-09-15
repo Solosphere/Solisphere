@@ -31,7 +31,8 @@ const [loading, setLoading] = useState(true);
       <header className="about-header">
         <h1>ABOUT</h1>
         <section className="about-caption">
-        <p>A curated digital sanctuary merging art and technology, illuminating the path to wholeness and growth</p>
+        {/* <p>A curated digital sanctuary merging art and technology, illuminating the path to wholeness and growth</p> */}
+        <p>CURATED DIGITAL SANCTUARY: ART + TECHNOLOGY | PATH TO WHOLENESS & GROWTH</p>
         </section>
       </header>
 
@@ -50,9 +51,9 @@ const [loading, setLoading] = useState(true);
         <section className="artistic-philosophy">
         <h2>THE PHILOSOPHY</h2>
         <p>
-        Within SOLUS CORE, I aim to shed light on the transformative journey towards personal wholeness, capturing the beauty of introspection and embracing the profound depth of the human experience. Drawing inspiration from philosophical luminaries such as Fyodor Dostoevsky, Friedrich Nietzsche, Albert Camus, Arthur Schopenhauer, and Miyamoto Musashi, each creation unravels the complexities of the human experience. This journey through the absurd, celebrating individualism and embracing transformative narratives, transcends philosophical concepts, resonating with personal experiences and cultural influences.
+        Within SOLUS CORE, I aim to shed light on the transformative journey towards personal wholeness, capturing the beauty of introspection and embracing the profound depth of the human experience. Drawing inspiration from philosophical luminaries such as Fyodor Dostoevsky, Friedrich Nietzsche, Albert Camus, Arthur Schopenhauer, and Miyamoto Musashi, each creation unravels the complexities of the human experience. This exploration highlights individualism and transformative stories, connecting philosophical ideas with personal and cultural experiences.
         </p>
-        <p>Spanning immersive websites to evocative multimedia paintings and drawings, my creations merge fine arts, graphic design, and technology. Projects like SAP (FORTHESOUL), 2022, exemplify my commitment to pushing creative boundaries. SOLUS CORE aims to connect with you on a profound level, sparking introspection and inviting you to delve into the depth into its meaning. Each piece serves as a portal into existential themes—absurdism, nihilism, and existentialism—inviting you to contemplate the depth of the human experience and infuse its meaning with your unique interpretation and engagement.    </p> 
+        <p>Spanning immersive websites to evocative multimedia paintings and drawings, my creations merge fine arts, graphic design, and technology. SOLUS CORE aims to connect with you on a profound level, sparking introspection and inviting you to delve into the depth into its meaning. Each piece serves as a portal into existential themes—absurdism, nihilism, and existentialism—inviting you to contemplate the depth of the human experience and infuse its meaning with your unique interpretation and engagement.    </p> 
         
         
         <section className="skills-container">
@@ -107,9 +108,9 @@ const [loading, setLoading] = useState(true);
             </section>
         <h2>Beyond the Canvas</h2>
         <p>
-        My journey extends beyond static canvases and intricate sculptures, propelled by a passion for creating impactful software like Second Wind and CareerSpring's Interest Finder feature. I believe that software has the power to peer into the depths of problems, and illuminate these challenges by providing tangible solutions to real-world problems that plague society.
+        My journey extends beyond traditional means of art and design, driven by a passion for impactful software projects like Second Wind and CareerSpring's Interest Finder feature. I believe that technology has the power to address real-world challenges and provide tangible solutions.
         <br /><br />
-        This commitment stems from a deep-seated belief in the potential of technology to strengthen personal journeys and foster growth within each individual. Software, in its essence, becomes a guiding light, offering solutions that navigate the complexities of existence. It is an unwavering pursuit to understand problems at their core, and crafting solutions that resonate with the human experience. In each line of code and every project undertaken, I'm driven to provide tools that empower individuals to navigate their paths with courage, resilience, and a renewed sense of direction. This vision, harmonizing with the overarching themes of SOLUS CORE, envisions a future where technology becomes a transformative force, shedding light on the darkest corners of our collective journey.</p>
+        This commitment stems from a belief in technology’s ability to support personal growth and navigate complex problems. Each line of code and project is designed to empower individuals, helping them face their paths with courage and resilience. This vision, in harmony with the themes of SOLUS CORE, seeks to make technology a transformative force, illuminating our collective journey and offering direction in challenging times. </p>
         </div>
         <div className='image-with-description-container'>
         <div className="image-with-description-v1">
