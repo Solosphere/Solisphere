@@ -3941,8 +3941,8 @@ select {
   
   .sort-section{
     max-width: 22%;
-    margin-left: 6%;
-    margin-right: 2%;
+    margin-left: 8%;
+    margin-right: 4%;
   }
   
     .filter-button {
@@ -5172,7 +5172,7 @@ select {
       padding-right: 0px;
       padding-bottom: 10px;
       border-radius: 8px;
-      background: rgba(0, 0, 0, 0.);
+      background: rgba(0, 0, 0, 0.373);
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
       backdrop-filter: blur(6px);
       -webkit-backdrop-filter: blur(5px);
