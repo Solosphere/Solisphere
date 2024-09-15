@@ -3488,7 +3488,6 @@ select {
     text-align: center;
     padding: 0 1vh;
     padding-bottom: 2vh;
-   
   }
   
   .home-button-row{
@@ -3895,7 +3894,6 @@ select {
     flex-direction: column;
     align-content: center;
     width: 100%;
-    
   }
   
   .gallery-title {
@@ -3943,7 +3941,7 @@ select {
   
   .sort-section{
     max-width: 22%;
-    margin-left: 4%;
+    margin-left: 6%;
     margin-right: 2%;
   }
   
@@ -3962,7 +3960,7 @@ select {
       margin-right: 2%;
       padding-top: 5px;
       padding-left: 2px;
-      padding-right: 0px;
+      padding-right: 2px;
       padding-bottom: 10px;
       border-radius: 8px;
       background: rgba(0, 0, 0, 0.373);
