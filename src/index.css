@@ -3924,7 +3924,6 @@ select {
     font-size: 2vh;
     margin: auto 0;
     padding: 2%;
-    
   }
   
   .filter-and-sort-row{
@@ -3932,7 +3931,7 @@ select {
     max-width: 100%;
     width: 100%;
     justify-content: end;
-    margin-right: 10%;
+    margin-right: 5%;
   }
   
   .filter-section{
