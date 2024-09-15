@@ -1141,7 +1141,7 @@ const products = [
         date: 2024,
         collection: '',
         price: 20000000,
-        image: ['/images/tigerskull.JPG', '/images/horsedesign.jpg', '/images/orchidspiders.JPG', '/images/dragonheaddesign.JPG'],
+        image: ['/images/tigerskull.JPG', '/images/horsedesign.jpg', '/images/orchidspiders.JPG', '/images/dragonheaddesign.JPG', '/images/chromeskull.JPG'],
         media: 'Graphite and ink on paper',
         dimenstions: '',
         description: ''
