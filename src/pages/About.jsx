@@ -167,7 +167,7 @@ const [loading, setLoading] = useState(true);
             Your browser does not support the video tag.
           </video>
       <div className='chrome-text'>
-      <p>A pyschological cyberpunk thriller unfolds in "Heart in Chrome," a graphic novel currently in the throes of creation exploring the sinister nexus of art, technology, identity, and power.</p>
+      <p>A pyschological cyberpunk thriller unfolds in "Heart in Chrome," a graphic novel currently in the throes of creation exploring the nexus of art, technology, identity, and power.</p>
       </div>
     </div>
     
@@ -175,7 +175,7 @@ const [loading, setLoading] = useState(true);
     <div className="tattoo-text">
     <p>Beyond the realms of traditional art, I'm venturing into the world of tattooing, specializing in black and grey styles like Realism, American traditional and more. As my journey unfolds, I aim to use tattooing as another layer of my creative odyssey to explore different ways to connect art with personal experiences and cultural influences.
     <br /><br />
-       *You can find more designs and practice within the Archive section!</p>
+       *You can find more designs and practice in the Archive section!</p>
     </div>
     <div className="tattoo-mini-gallery">
       <div className='image-column-1'>
