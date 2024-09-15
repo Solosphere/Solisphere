@@ -334,7 +334,6 @@ video::-webkit-media-controls-play-button {
 
 .explore-gallery-button:hover ,.home-about-button:hover{
   background-color: #F05941;
-
 }
 
 .explore-gallery-link,
@@ -880,9 +879,10 @@ video::-webkit-media-controls-play-button {
 
 .filter-button {
   background-color: black;
+  border: 2px rgb(39, 39, 39) solid !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important; 
   color: #ffffff;
   font-size: 3vh;
-  border: none;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -911,9 +911,10 @@ video::-webkit-media-controls-play-button {
 
 .sort-button {
   background-color: black;
+  border: 2px rgb(39, 39, 39) solid !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important; 
   font-size: 3vh;
   color: #ffffff;
-  border: none;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -943,6 +944,8 @@ select {
 
 .viewer-discretion-button{
   background-color: #000000;
+  border: 2px rgb(39, 39, 39) solid !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -979,7 +982,6 @@ select {
   border-radius: 8px;
   padding: 2%;
   text-decoration: none !important;
-
 }
 
 
@@ -1002,7 +1004,6 @@ select {
 .link-no-underline {
   text-decoration: none;
 }
-
 
 
 .gallery-image,
@@ -1039,6 +1040,7 @@ select {
 
 .pagination-prev, .pagination-next{
   background: none;
+  border: hidden !important;
   font-size: 2em;
   margin: 0;
   padding: 0;
@@ -1046,6 +1048,8 @@ select {
 
 .pagination button{
   background-color: black;
+  border: 2px rgb(39, 39, 39) solid;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }
 
 
@@ -1057,7 +1061,7 @@ select {
 }
 
 .pagination button:hover{
-  background-color: #aaaaaa; 
+  background-color: #F05941; 
 }
 
 .pagination-prev:hover, .pagination-next:hover{
@@ -1091,13 +1095,15 @@ select {
   margin: 2%;
   color: white;
   border-radius: 10px;
-  background-color: #F05941;
+  background: none !important;
+  border: 2px rgb(39, 39, 39) solid !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow to create raised effect */
   font-size: 18px;
   transition: background-color 0.3s ease;
 }
 
 .back-button:hover{
-  background-color: rgba(240, 89, 65, 0.7); 
+  background-color: #F05941 !important; 
 }
 
 .details-container {
@@ -3763,6 +3769,7 @@ select {
   .search-bar{
     width: 85%;
     margin-right: 5%;
+    margin-bottom: 2%;
   }
   
   .search-bar-input{
@@ -4943,6 +4950,8 @@ select {
   .search-bar{
     max-width: 95%;
     margin-right: 5%;
+    margin-bottom: 2%;
+
   }
   
   .search-bar-input{
