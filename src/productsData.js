@@ -1209,6 +1209,18 @@ const products = [
         dimensions: '',
         description: '"Motion Heat Cutter" is a 3D model sculpture integrating motion detection to activate a nichrome wire that burns at 400 degrees fahrenheit through a tilt ball switch. This interactive tool, allowing users to rotate it 90 degrees, was crafted with the purpose of sculpting a foam representation critiquing the gluttony of the TransAtlantic Slave trade and the exploitation of black labor in sugar production. By juxtaposing foam with sugar as materials, the piece unveils the hidden exploitative nature underlying the commodification of sugar, urging contemplation on the complexities of industrialization and exploitation within our societal structures.',
       },
+
+      {
+        id: 102,
+        name: 'The Mountains',
+        date: 2024,
+        collection: '',
+        price: 250000,
+        image: ['/images/mountains.jpg'],
+        media: 'Acrylic paint and spray paint on canvas',
+        dimensions: '3x2ft',
+        description: '',
+      },
   ];
 
 //Calculating most products in a card

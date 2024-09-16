@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleChevronRight, faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons'; 
+import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'; 
 import products from '../productsData';
 
 const GalleryItemDetails = () => {
@@ -113,8 +113,8 @@ const GalleryItemDetails = () => {
           </div>
           {product.image.length > 1 && (
               <div className="image-navigation">
-                 <FontAwesomeIcon icon={faCircleChevronLeft} onClick={handlePrevImage} className="prev" />
-                 <FontAwesomeIcon icon={faCircleChevronRight} onClick={handleNextImage} className="next"/>
+                 <FontAwesomeIcon icon={faChevronLeft} onClick={handlePrevImage} className="prev" />
+                 <FontAwesomeIcon icon={faChevronRight} onClick={handleNextImage} className="next"/>
               </div>
             )}
           </div>

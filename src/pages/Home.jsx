@@ -5,7 +5,7 @@ import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons
 
 export default function HomePage() {
 const [currentImageIndex, setCurrentImageIndex ] = useState(0);
-const images = ['kirin.jpg', 'secondwind.jpg', 'SAP.JPG', 'metvoyager.jpg', 'skeleton.jpg', 'angel.JPG', 'nightlife2.jpg'];
+const images = ['kirin.jpg', 'secondwind.jpg', 'SAP.JPG', 'metvoyager.jpg', 'angel.JPG', 'nightlife2.jpg'];
 const location = useLocation();
 
 console.log("Location:", location)
@@ -21,6 +21,16 @@ const handlePrevImage = () => {
 useEffect (() => {
     window.scrollTo(0, 0);
  }, [location.pathname]);
+
+ // Set up interval to automatically change the image every 5 seconds
+ useEffect(() => {
+  const interval = setInterval(() => {
+    handleNextImage();
+  }, 7000); // Change every 5 seconds
+
+  // Clean up the interval when the component unmounts
+  return () => clearInterval(interval);
+}, []);
 
 return (
   <div className="home-page">
