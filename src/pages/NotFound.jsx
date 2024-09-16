@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Loading from '../components/Loading';
 
 export default function NotFoundPage() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     // Simulate loading time for demonstration (e.g., 2 seconds)
