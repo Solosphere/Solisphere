@@ -376,7 +376,7 @@ const products = [
         image: ['/images/chromed.JPG', '/images/chromedgreen.JPG', '/images/chromedred.JPG'],
         media: 'Photography and digital edit',
         dimensions: '24x24in',
-        description: 'Chromed: SUDO RM -RF" explores the fusion of human and machine, presenting a vision of cybernetic augmentation. Through photography and digital editing, I transformed myself into a cybernetic being, embodying themes of technological integration and exploration. With text fragments like "CHROMED" and "hscking the mainframe access granted," alongside intricate code backgrounds, the piece invites viewers to ponder the intersection of humanity and technology within the digital realm',
+        description: 'Chromed: SUDO RM -RF" explores the fusion of human and machine, presenting a vision of cybernetic augmentation. Through photography and digital editing, I transformed myself into a cybernetic being, embodying themes of technological integration and exploration. With text fragments like "CHROMED" and "hacking the mainframe access granted," alongside intricate code backgrounds, the piece invites viewers to ponder the intersection of humanity and technology within the digital realm.',
       },
       {
         id: 32,
