@@ -305,7 +305,7 @@ const GalleryList = () => {
   }, []);
   
   useEffect(() => {
-    setLoading(true); 
+    setLoading(false); 
     setLoadingDueToViewerDiscretion(false);
     window.scrollTo(0, 0);
     
