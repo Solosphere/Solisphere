@@ -18,6 +18,11 @@ input, label {
   display: block;
 }
 
+::selection {
+  background-color: white; 
+  color: #000;              
+}
+
 
 h1 {
   font-size: 3em !important;
