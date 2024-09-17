@@ -26,7 +26,7 @@ useEffect (() => {
  useEffect(() => {
   const interval = setInterval(() => {
     handleNextImage();
-  }, 7000); // Change every 5 seconds
+  }, 5000); // Change every 5 seconds
 
   // Clean up the interval when the component unmounts
   return () => clearInterval(interval);
