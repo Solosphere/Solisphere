@@ -1,14 +1,8 @@
 body {
   font-family: "changeling-neo", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0;
-  overflow-x: clip !important;/* Prevents horizontal scrollbars due to large gradients */
- /* background: rgb(169, 169, 169);
-    linear-gradient(rgba(61, 66, 66, 0.189), transparent),
-    linear-gradient(to bottom left, rgb(0, 0, 0), transparent),
-    linear-gradient(to top, rgb(169, 169, 169) 85%, transparent);
-   background-blend-mode: screen; */
-  background-size: 100%;  
-  /* background-color:rgb(169, 169, 169);  */
+  overflow-x: clip !important;
+  background-size: 100%;
   background-color: black;
   color: white;
   max-width: 100%;
@@ -1093,7 +1087,9 @@ select {
   flex-direction: column;
   max-width: 90%;
   margin: 2% auto;
-  padding: 1%; 
+  margin-top: 0px !important;
+  padding: 1%;
+  padding-top: 0px !important;
   border-radius: 30px;
   background-color: black;
 }

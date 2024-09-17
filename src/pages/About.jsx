@@ -173,7 +173,7 @@ const [loading, setLoading] = useState(true);
     
     <div className="image-with-description" id="tats">
     <div className="tattoo-text">
-    <p>Beyond the realms of traditional art, I'm venturing into the world of tattooing, specializing in black and grey styles like Realism, American traditional and more. As my journey unfolds, I aim to use tattooing as another layer of my creative odyssey to explore different ways to connect art with personal experiences and cultural influences.
+    <p>I'm also venturing into the world of tattooing, with a patricular interest in black and grey Realism and American traditional. As my journey unfolds, I aim to use tattooing as another layer of my creative odyssey to explore different ways to connect art with personal experiences and cultural influences.
     <br /><br />
        *You can find more designs and practice in the Archive section!</p>
     </div>
