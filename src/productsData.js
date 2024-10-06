@@ -1224,7 +1224,7 @@ const products = [
 
       {
         id: 103,
-        name: 'Heart in Chrome: The Blueprints pt 1',
+        name: 'Heart in Chrome: The Blueprints Part I',
         date: 2024,
         collection: '',
         price: 250000,
