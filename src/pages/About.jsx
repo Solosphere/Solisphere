@@ -163,17 +163,19 @@ const [loading, setLoading] = useState(true);
         <div className="upcoming-projects-column-2">
         <div className="image-with-description" id="chrome-container" >
       <video autoPlay muted width="auto" loop playsInline controls={false}>
-            <source src='/videos/heartinchrome.mp4' type="video/mp4" />
+            <source src='/videos/HCteaser.mp4' type="video/mp4" />
             Your browser does not support the video tag.
           </video>
       <div className='chrome-text'>
-      <p>A pyschological cyberpunk thriller unfolds in "Heart in Chrome," a graphic novel currently in the throes of creation exploring the nexus of art, technology, identity, and power.</p>
+      <p>A pyschological cyberpunk thriller unfolds in "Heart in Chrome," a graphic novel currently in the throes of creation exploring the nexus of art, technology, identity, and power.
+      <br /><br /> 
+      * You can now check out some concept designs for Heart in Chrome in the Archive section!</p>
       </div>
     </div>
     
     <div className="image-with-description" id="tats">
     <div className="tattoo-text">
-    <p>I'm also venturing into the world of tattooing, with a patricular interest in black and grey Realism and American traditional. As my journey unfolds, I aim to use tattooing as another layer of my creative odyssey to explore different ways to connect art with personal experiences and cultural influences.
+    <p> As my journey unfolds, I aim to use tattooing as another layer of my creative odyssey to explore different ways to connect art with personal experiences and cultural influences.
     <br /><br />
        *You can find more designs and practice in the Archive section!</p>
     </div>

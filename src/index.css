@@ -700,7 +700,7 @@ video::-webkit-media-controls-play-button {
   height: 100%;
   margin: auto;
   margin-right: 0%;
-  border-radius: 40px;
+  border-radius: 8px;
   overflow: hidden;
 }
 
@@ -1213,6 +1213,48 @@ select {
 .thumbnail:hover {
   border-color: #F05941; 
 }
+
+/*Modal CSS*/
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow-y: auto; /* Allows vertical scrolling */
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.modal-image, .modal-video {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color:#aaaaaa;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-close:hover{
+  color:#F05941;
+}
+
 
 /* Loading Css*/
 .loading{

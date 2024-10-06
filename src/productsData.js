@@ -1153,7 +1153,7 @@ const products = [
         date: 2024,
         collection: '',
         price: 20000000,
-        image: ['/images/customflash1.JPG','/images/drawncrow.jpg','/images/tat-1.jpg','/images/tat-2.jpg', '/images/tat-3.jpg'],
+        image: ['/images/customflash1.JPG','/images/leviathan.JPG', '/images/drawncrow.jpg','/images/tat-1.jpg','/images/tat-2.jpg', '/images/tat-3.jpg'],
         media: 'Graphite and ink on paper',
         dimenstions: '',
         description: ''
@@ -1220,6 +1220,18 @@ const products = [
         media: 'Acrylic paint and spray paint on canvas',
         dimensions: '3x2ft',
         description: '',
+      },
+
+      {
+        id: 103,
+        name: 'Heart in Chrome: The Blueprints pt 1',
+        date: 2024,
+        collection: '',
+        price: 250000,
+        image: ['/videos/HCteaser.mp4', '/images/HCteaser2.JPG', '/images/HC6.JPG', '/images/HC1.JPG', '/images/HC2.JPG','/images/HC3.JPG','/images/HC5.JPG','/images/HC4.JPG'],
+        media: 'Digital',
+        dimensions: '',
+        description: `Heart in Chrome is a cyberpunk narrative set in the sprawling dystopia of Neo Columbia, where corporate greed and advanced technology have blurred the lines between humanity and machine. At its core is Luke Kane, a former artistic prodigy turned Nexrunner, who finds himself at the center of a conspiracy to reshape the human soul through the Transcendence Protocol. In a world teetering on the edge of control and chaos, ancient technologies, unspoken horrors, and complex alliances bring both beauty and destruction into the balance. For now you can explore character and world-building designs that allude to a story where hope, betrayal, and the relentless march of progress collide.`,
       },
   ];
 
